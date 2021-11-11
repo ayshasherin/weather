@@ -156,4 +156,43 @@ margin-top: -20%; */
     /* z-index: 1; */
     margin-top: 117%;
     margin-left: -10%;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:700px){
+    .section h1{
+        position: fixed;
+    display: flex;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: cursive;
+    padding: 20px;
+    color: rgb(167, 65, 6);
+    font-size: 40px;
+    font-weight: 200px;
+    /* z-index: 1; */
+    margin-top: -450px;
+    margin-left: -5%;
+    }
+
+    .section input{
+        margin-top: -20%;
+        margin-left: -15%;
+        display: flex;
+        position: fixed;
+    }
+
+    .btn-5{
+        margin-top: -20%;
+        margin-left: 15%;
+        display: flex;
+        position: fixed;
+    }
+
+    #result{
+        margin-top: 40%;
+        margin-left: -1%;
+        display: flex;
+        position: fixed;
+    }
 }
